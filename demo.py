@@ -1,13 +1,12 @@
-n = int(input("Enter any number: "))
-
-if n <= 1:
-    print("The number is not prime")
+n= int(input("Enter any number: "))
+i=2
+f=0
+while i<n:
+    if n%i==0:
+        f=1
+        break
+    i+=1
+if f==0:
+    print("The number is prime")
 else:
-    i = 2
-    while i * i <= n:
-        if n % i == 0:
-            print("The number is not prime")
-            break
-        i += 1
-    else:
-        print("The number is prime")
+    print("The number is not prime")
