@@ -1,0 +1,1 @@
+This program is for checking if the input number is prime or not 
